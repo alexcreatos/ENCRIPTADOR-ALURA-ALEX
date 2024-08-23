@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ENCRIPTADOR DE TEXTOS</title>
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/Logo.png" alt="Logo Alura" class="logo">
+        </a>
+        <h1>SUPER ENCRIPTADOR</h1>
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./imagenes/peligro.png" alt="advertencia peligro" width="25" height="25" class="img-aviso">
+                <p class="texto-aviso">Solo letras minuscúlas sin acento</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="tarjeta-de-resultados">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/Muñeco.png" alt="imagen-muñeco" class="img-muñeco">
+                <p class="primer-texto">Ningun texto fue encontrado</p>
+                <p class="segundo-texto">Ingrese el texto que desea encriptar ó desencriptar</p>
+            </div>
+            <textarea class="evaluar"></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p class="copyright">&copy; 2024 - Encriptador de texto - Desarrollado por: Alexander Carrillo</p>
+        <a href="https://www.linkedin.com/in/alexander-carrillo-16041b52/" target="_blank">
+            <img src="./imagenes/Logo linkedin.png" alt="Logo de Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/alexcreatos" target="_blank">
+            <img src="./imagenes/logotipo-de-github.png" alt="Logo de github" class="git">
+        </a>
+    </footer>
+</body>
+</html>
